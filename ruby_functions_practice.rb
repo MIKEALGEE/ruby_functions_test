@@ -18,6 +18,10 @@ def divide(num1, num2)
   return num1/num2
 end
 
-def length_of_string(string)
-  return  string = "string of string test".length
+def length_of_string(str)
+  return  str.length
+end
+
+def join_string(string_1,string_2)
+return "#{string_1}" + "#{string_2}"
 end

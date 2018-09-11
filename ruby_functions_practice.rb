@@ -52,11 +52,11 @@ case number
             when 9
                 return "September"
               when 10
-                  return "Octubre"
+                  return "Octobre"
                 when 11
                     return "November"
                   when 12
-                      return "Dicember"
+                      return "December"
                   else
                     return "Not a Month"
 end
@@ -65,30 +65,44 @@ end
 def number_to_short_month_name(number)
   case number
     when 1
-      return "Jan"
+    return "Jan"
     when 2
-      return "Feb"
+    return "Feb"
     when 3
-      return "Mar"
+    return "Mar"
     when 4
-      return "Apr"
+    return "Apr"
     when 5
-      return "May"
-        when 6
-            return "Jun"
-          when 7
-              return "Jul"
-            when 8
-                return "Aug"
-              when 9
-                  return "Sep"
-                when 10
-                    return "Oct"
-                  when 11
-                      return "Nov"
-                    when 12
-                        return "Dec"
-                    else
-                      return "Not a Month"
+    return "May"
+    when 6
+      return "Jun"
+  when 7
+  return "Jul"
+  when 8
+return "Aug"
+when 9
+  return "Sep"
+  when 10
+  return "Oct"
+  when 11
+  return "Nov"
+  when 12
+  return "Dec"
+  else
+  return "Not a Month"
   end
   end
+
+def volume_of_cube(length, width, height)
+  return length * width * height
+end
+
+def volume_of_sphere(radius, volume)
+  return radius.to_f * volume.to_f
+
+end
+
+  def fahrenheit_to_celsius(fahrenheit, deduct, divide)
+   minus = fahrenheit - deduct
+  return  minus / divide
+end
